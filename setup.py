@@ -5,7 +5,7 @@
 import setuptools
 
 setuptools.setup(
-    name='ethiopian_date',
+    name='ethiopian-date-converter',
     version=__import__('ethiopian_date').__version__,
     license='GNU General Public License (GPL), Version 3',
 
@@ -14,7 +14,7 @@ setuptools.setup(
     description='Ethiopian date converter.',
     long_description=open('README.rst').read(),
 
-    url='http://github.com/rgaudin/tools',
+    url='https://github.com/dimagi/ethiopian-date-converter',
 
     packages=['ethiopian_date'],
 
