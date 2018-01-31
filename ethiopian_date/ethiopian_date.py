@@ -25,6 +25,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA """
 from __future__ import absolute_import
 import datetime
 from six.moves import range
+import sys
 
 
 class EthiopianDateConverter(object):
@@ -222,6 +223,6 @@ class EthiopianDateConverter(object):
         # Ethiopian months ordered according to Gregorian
         order = [0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 1, 2, 3, 4]
         ethiopian_month = order[m]
-        print("PREETHI: New package reached")
+        sys.stderr.write(("PREETHI: New package reached")
 
         return ethiopian_year, ethiopian_month, ethiopian_date
