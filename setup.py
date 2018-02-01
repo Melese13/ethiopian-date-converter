@@ -6,11 +6,11 @@ from __future__ import absolute_import
 import setuptools
 
 setuptools.setup(
-    name='ethiopian-date-converter',
+    name='ethiopian_date_converter',
     version=__import__('ethiopian_date').__version__,
     license='GNU General Public License (GPL), Version 3',
 
-    provides=['ethiopian_date'],
+    # provides=['ethiopian_date'],
 
     description='Ethiopian date converter.',
     long_description=open('README.rst').read(),
