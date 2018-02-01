@@ -17,7 +17,7 @@ setuptools.setup(
 
     url='https://github.com/dimagi/ethiopian-date-converter',
 
-    packages=['ethiopian_date_converter'],
+    packages=['ethiopian_date'],
 
     classifiers=[
         'Development Status :: 4 - Beta',
